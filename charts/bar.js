@@ -3,12 +3,12 @@ Vue.component('bar-chart', {
   props: ['data', 'options'],
   mounted () {
     var data = this.data || {
-      labels: [2007,2008,2009,2010,2011,2012,2013,2014,2015],
+      labels: [2016,2017,2018],
       datasets: [
         {
-          label: 'Rhinoceros tués chaque année par le braconnage en Afrique du Sud',
+          label: 'Pourcentage de femmes publiées lors de la rentrée littéraire (août-octobre)',
           backgroundColor: '#f87979',
-          data: [13, null,122,333,448,668,1004,1215,749],
+          data: [33.8,37.4,36.4],
           datalabels: {
             align: 'end',
             anchor: 'end'

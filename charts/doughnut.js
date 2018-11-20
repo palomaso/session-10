@@ -3,12 +3,12 @@ Vue.component('doughnut-chart', {
   props: ['data', 'options'],
   mounted () {
     var data = this.data || {
-      labels: ["Paris","Hauts-de-Seine","Yvelines","Seine-et-Marne", "Autres"],
+      labels: ["Gallimard", "Robert Laffont", "Stock", "Albin Michel", "Flammarion"],
       datasets: [
         {
           label: 'Affaire de corruption en IDF par département',
           backgroundColor: ['#54abab', '#9bd1d1', '#9bd1d1', '#9bd1d1', '#9bd1d1'],
-          data: [42 , 18 , 8 , 6 , 13],
+          data: [10 , 6, 5 , 5, 4],
           datalabels: {
             align: 'center',
             anchor: 'center'

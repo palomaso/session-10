@@ -3,12 +3,12 @@ Vue.component('pie-chart', {
   props: ['data', 'options'],
   mounted () {
     var data = this.data || {
-      labels: ['Olga', 'Elsa', 'Lina'],
+      labels: ['Non-paritaires', 'Paritaires'],
       datasets: [
         {
           label: 'GitHub Commits',
-          backgroundColor: ['#f779b8', '#f87979', '#f7b879'],
-          data: [40, 20, 10]
+          backgroundColor: ['#f779b8', '#f7b879'],
+          data: [86, 14]
         }
       ]
     };
